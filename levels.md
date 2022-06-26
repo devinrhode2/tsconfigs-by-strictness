@@ -1,0 +1,1 @@
+# typescript tsconfig compilerOptions settings ranked by value
