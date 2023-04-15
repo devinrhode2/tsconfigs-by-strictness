@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "noStrictGenericChecks": true,
+    "suppressExcessPropertyErrors": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "disableSizeLimit": true,
+    "maxNodeModuleJsDepth": 100,
+
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "alwaysStrict": false, // code runs with this anyway
+    "strictNullChecks": false,
+    "strictBindCallApply": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "useUnknownInCatchVariables": false,
+    "exactOptionalPropertyTypes": false,
+    "noImplicitOverride": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    "noImplicitAny": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+
+    "useUnknownInCatchVariables": true,
+    "strictNullChecks": true
+  }
+}

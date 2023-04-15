@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    // likely developer mistakes, but no runtime errors...
+    // Maybe these will just annoying on top of everything else?
+    // maybe they are lower level simply because they are so easy to fix??
+    // But they could unravel to a much larger problem?
+    // maybe just not add a level to these?
+    // or something like "L-a" "assistive" level?
+    "noUnusedLocals": true
+  }
+}

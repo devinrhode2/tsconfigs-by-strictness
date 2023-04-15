@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
+
+    // maybe even higher?
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+  
+    
+    // higher yet:
+    "noImplicitOverride": true,
+    
+    
+    // highest level? or unique annotation?
+    // These all get converted to explicit `any` so... no need for // @ts-expect-error...
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    
+    
+    
+    // Actually higher:
+    // but, this can be auto-fixed with eslint, so idk:
+    "importsNotUsedAsValues": error,
+    
+    // can this be auto-fixed??
+    "forceConsistentCasingInFileNames": true,    
+  }
+}

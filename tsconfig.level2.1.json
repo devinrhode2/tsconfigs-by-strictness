@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    // maybe call this "use strict" in the codebase :)
+    "alwaysStrict": true // code runs with this anyway
+  }
+}

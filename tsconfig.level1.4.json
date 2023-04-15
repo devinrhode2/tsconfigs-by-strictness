@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "noUnusedParameters": true, // assistive
+
+    // Unwind "backwards-compat" flags
+    // Likely programmer mistake:
+    "suppressExcessPropertyErrors": false, // assistive
+
+    "noStrictGenericChecks": false // restore strictGenericChecks
+  }
+}
